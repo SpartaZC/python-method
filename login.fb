@@ -1,0 +1,51 @@
+# python-login fb
+
+
+import requests
+import string
+Hotmail = ('[+]cheke YOur Email  :')
+
+def login():
+
+    re=requests.get('https://www.facebook.com/ajax/')
+
+    header={
+        'authority': 'www.facebook.com',
+        'method': 'POST',
+        'path': '/ajax/webstorage/process_keys/?state=1',
+        'scheme': 'https',
+        'accept': '*/*',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9',       
+        'content-length': '456',
+        'content-type': 'application/x-www-form-urlencoded',
+        'cookie': 'datr=KhNmXwo87y29ugcPOdcWd3xK; sb=fxLNX97p66stpAcEON_fQqRB; fr=0aOi8AIncblOxLwuZ..Be642W.BX.F9y.0.0.Bf0hB4.AWV-BsVUzNo; wd=798x747',
+        'origin': 'https://www.facebook.com',
+        'referer': 'https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-origin',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+        }
+
+    #data={
+
+        #'username': user
+        #password : pass 
+
+        #}
+
+
+        
+
+    req=requests.post('https://www.facebook.com/ajax/',data=data , header=header)
+
+    print(req)
+login()
+
+
+def log():
+
+
+
+
