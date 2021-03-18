@@ -12,7 +12,7 @@ print(" ")
 
 print('#'"   " '####################################')
 print('#'"   " "--Spam Bot By:Telegram/@AB_A3" "     " '#')
-print('#'"   " "--Coded ByYosuf insta-@SAC.HK" "     " '#')
+print('#'"   " "--Coded By ~ose insta-@SAC.HK" "     " '#')
 print('#'"   " "-- Programing lang Python--" "       " '#')
 print("# " "  " '###################################')
 print(" ")
